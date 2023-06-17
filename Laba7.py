@@ -82,3 +82,18 @@ circle.move(3, 3)
 square.resize(2)
 rectangle.move(-5, 5)
 rectangle.resize(0)
+
+# выводим информацию о фигурах
+print(circle)
+print(square)
+print(rectangle)
+
+# поворачиваем фигуры на 45 градусов
+circle.rotate(45)
+square.rotate(45)
+rectangle.rotate(45)
+
+# выводим информацию о фигурах после поворота
+print(circle)
+print(square)
+print(rectangle)
